@@ -1,0 +1,145 @@
+	
+
+	/* Set Your Own Margin & Padding */
+h2, h3, p {
+	margin: 0;
+}
+*{	box-sizing: border-box;}
+/* Layout for Style Tile*/
+
+
+.color-1,
+.color-2,
+.color-3,
+.pattern-1,
+.pattern-2,
+.pattern-3, 
+.imagery-1,
+.imagery-2,
+.imagery-3 {
+	border: 1px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 50px;
+	width: 50px;
+}
+
+html, body {height:100%; margin:0; padding:0;}
+
+/* layout */
+h1{
+	text-align:center;
+	font-family: 'Jura', sans-serif;
+}
+.container{
+	width: 1000px; 
+	margin: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	background: #FFF9FC;
+	min-height: 88%;
+	border:3px solid #555;
+     border-top-left-radius: 4em 0.5em;
+     border-top-right-radius: 4em 0.5em;
+
+}
+
+
+	img{
+
+		width:320px;
+	}
+/* http://lea.verou.me/css3patterns/#weave */
+body{
+	display:inline;
+	background:
+linear-gradient(135deg, #708090 22px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px),
+linear-gradient(225deg, #708090 22px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px)0 64px;
+background-color:#708090;
+background-size: 64px 128px;
+}
+
+/* http://www.cssstickyfooter.com/using-sticky-footer-code.html */
+.footer{
+border-top:3px solid #555;
+position: relative;
+	height:2%;
+	background: linear-gradient(to bottom, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C */
+clear: both;
+}
+
+
+
+
+
+
+input{
+  display: block;
+  margin:.5em 0;
+}
+
+input:focus{
+  background: orange;
+  border: 0;
+  border:0;
+}
+input[type="submit"]{
+  border-radius:20px;
+}
+
+.round{
+	border-radius:100%;
+	margin-left:30%;
+}
+
+.header{
+	position: relative;
+	height: 3%;
+	background: linear-gradient(to bottom, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C */
+	margin-top: 50px;
+	clear:both;
+	display:flex;
+
+}
+
+.nav{
+ margin:0 auto;
+ align-self:center;
+ padding:50px;
+}
+
+.nav:first-child::before{
+	content:"SB";
+	font-size:60px;
+		font-family: 'Jura', sans-serif;
+	position:absolute;
+	font-weight:bold;
+	color:tomato;
+	 text-shadow: 2px 2px 4px #000000;
+}
+.nav li:first-child{
+	margin-left:40px;
+}
+.nav li {
+	align-self: center;
+  list-style: none;
+display: inline-block;
+}
+/* first frame */
+.nav li a {
+  background: #ddd;
+  color:#fff;
+  display: inline-block;
+  height:1em;
+  line-height: 1em;
+  padding:1em;
+  text-decoration: none;
+  text-transform: uppercase; 
+  border-bottom: .5em black double;
+}
+/* last frame */
+.nav li a:hover{
+  background: #555;
+  border-bottom: .5em red double;
+
+}
