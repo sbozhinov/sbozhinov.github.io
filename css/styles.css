@@ -157,6 +157,7 @@ display: inline-block;
   text-decoration: none;
   text-transform: uppercase; 
   border-bottom: .5em black double;
+  	font-family: 'Jura', sans-serif;
     
 }
 /* last frame */
@@ -165,8 +166,7 @@ display: inline-block;
   border-bottom: .5em red double;
   color:white;
 
-animation: nav .3s ease-in both;
-animation-direction: alternate;
+animation: nav .3s ease-out both;
 }
 
 
@@ -183,7 +183,7 @@ animation-direction: alternate;
   }
 
     100% {
-         transform: scale(1.15);
+         transform: scale(1.10);
          border-radius:10%;
    }
 }
