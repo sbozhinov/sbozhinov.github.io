@@ -120,7 +120,7 @@ input[type="submit"]:hover{
 
  margin:0 auto;
  align-self:center;
- padding:50px 100px;
+ padding:30px 100px;
  border-left:.5em groove tomato;
   border-right:.5em groove tomato;
   border-bottom-left-radius: 4em 5em;;
@@ -136,13 +136,13 @@ p img{
 }
 .nav:first-child::before{
 	content:"SB";
-	font-size:60px;
+	font-size:55px;
 	font-family: 'Jura', sans-serif;
 	position:absolute;
 	font-weight:bold;
 	color:tomato;
 	 text-shadow: 2px 2px 4px #000000;
-	 transform:rotate(-30deg);
+	 transform:rotate(-20deg);
 }
 .nav li:first-child{
 	margin-left:40px;
@@ -162,7 +162,7 @@ color:white;
   color:#666;
   display: inline-block;
   height:1em;
-  line-height: 1em;
+  line-height: .8em;
   padding:1em;
   font-weight:bold;
   text-decoration: none;
