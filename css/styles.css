@@ -67,11 +67,7 @@ iframe{margin-top:15px;}
 /* http://lea.verou.me/css3patterns/#weave */
 body{
 	display:inline;
-	background:
-linear-gradient(135deg, #708090 22px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px),
-linear-gradient(225deg, #708090 22px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px)0 64px;
-background-color:#708090;
-background-size: 64px 128px;
+background: radial-gradient(ellipse at center, rgba(167,207,223,1) 0%,rgba(35,83,138,1) 100%); /* W3C */
 }
 
 /* http://www.cssstickyfooter.com/using-sticky-footer-code.html */
