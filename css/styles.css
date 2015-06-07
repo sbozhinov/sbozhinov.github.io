@@ -118,6 +118,7 @@ input[type="submit"]:hover{
  margin:0 auto;
  align-self:center;
  padding:50px;
+ perspective: 500px;
 }
 
 p img{
@@ -145,11 +146,11 @@ p img{
   list-style: none;
 display: inline-block;
 }
-/* first frame */
+
 .nav li a {
 	border:1px solid black;
-  background: #ddd;
-  color:#fff;
+  background: #eee;
+  color:#666;
   display: inline-block;
   height:1em;
   line-height: 1em;
@@ -157,18 +158,34 @@ display: inline-block;
   text-decoration: none;
   text-transform: uppercase; 
   border-bottom: .5em black double;
+    
 }
 /* last frame */
 .nav li a:hover{
   background: #555;
   border-bottom: .5em red double;
+  color:white;
+
+animation: nav .3s ease-in both;
 
 }
 .nav .current> a{
 	  background: #666;
+	  color:#fff;
 	border-bottom: .5em red double;
 }
 	
+/* Keyframes */
+@keyframes nav {
+  0% { 
+        transform: scale(1);
+  }
+
+    100% {
+         transform: scale(1.15);
+         border-radius:10%;
+   }
+}
 
 @media screen and (max-width:1000px){
 	.container{
