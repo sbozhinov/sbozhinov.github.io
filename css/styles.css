@@ -118,7 +118,6 @@ input[type="submit"]:hover{
  margin:0 auto;
  align-self:center;
  padding:50px;
- perspective: 500px;
 }
 
 p img{
@@ -131,12 +130,12 @@ p img{
 .nav:first-child::before{
 	content:"SB";
 	font-size:60px;
-		font-family: 'Jura', sans-serif;
+	font-family: 'Jura', sans-serif;
 	position:absolute;
 	font-weight:bold;
 	color:tomato;
 	 text-shadow: 2px 2px 4px #000000;
-	 transform:rotate(-45deg);
+	 transform:rotate(-40deg);
 }
 .nav li:first-child{
 	margin-left:40px;
@@ -167,8 +166,10 @@ display: inline-block;
   color:white;
 
 animation: nav .3s ease-in both;
-
+animation-direction: alternate;
 }
+
+
 .nav .current> a{
 	  background: #666;
 	  color:#fff;
