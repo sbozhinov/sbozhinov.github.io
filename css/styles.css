@@ -38,6 +38,9 @@ background-color:#bababa;
 text-shadow:#e0e0e0 1px 1px 0;
 border-radius:5px;
 }
+h2{ border-left:5px solid tomato;
+color: #1661E8;}
+
 .container{
 	width: 1000px; 
 	margin: auto;
@@ -144,6 +147,7 @@ display: inline-block;
 }
 /* first frame */
 .nav li a {
+	border:1px solid black;
   background: #ddd;
   color:#fff;
   display: inline-block;
@@ -160,6 +164,11 @@ display: inline-block;
   border-bottom: .5em red double;
 
 }
+.nav .current> a{
+	  background: #666;
+	border-bottom: .5em red double;
+}
+	
 
 @media screen and (max-width:1000px){
 	.container{
