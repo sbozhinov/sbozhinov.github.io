@@ -3,6 +3,7 @@
 	/* Set Your Own Margin & Padding */
 h2, h3, p {
 	margin: 0;
+	font-family: 'Jura', sans-serif;
 }
 *{	box-sizing: border-box;}
 /* Layout for Style Tile*/
@@ -27,14 +28,20 @@ h2, h3, p {
 html, body {height:100%; margin:0; padding:0;}
 
 /* layout */
+
+/*http://css3gen.com/css3-text-effects/ */
 h1{
 	text-align:center;
 	font-family: 'Jura', sans-serif;
+color:#616161;
+background-color:#bababa;
+text-shadow:#e0e0e0 1px 1px 0;
+border-radius:5px;
 }
 .container{
 	width: 1000px; 
 	margin: auto;
-	padding-left: 10px;
+	padding-left: 20px;
 	padding-right: 10px;
 	background: #FFF9FC;
 	min-height: 88%;
@@ -44,7 +51,7 @@ h1{
 
 }
 
-
+iframe{margin-top:15px;}
 	img{
 
 		width:320px;
@@ -108,6 +115,13 @@ input[type="submit"]{
  padding:50px;
 }
 
+p img{
+	display:block;
+	margin: 5px;
+	border: 3px solid #333;
+	margin-left:10%;
+	border-radius:5px;
+}
 .nav:first-child::before{
 	content:"SB";
 	font-size:60px;
@@ -116,6 +130,7 @@ input[type="submit"]{
 	font-weight:bold;
 	color:tomato;
 	 text-shadow: 2px 2px 4px #000000;
+	 transform:rotate(-45deg);
 }
 .nav li:first-child{
 	margin-left:40px;
