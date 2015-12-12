@@ -1,3 +1,3 @@
 $(document).ready(function() {
-  $('a').magnificPopup({type:'image'});
+  $('.gallery a').magnificPopup({type:'image'});
 });

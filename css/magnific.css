@@ -2,21 +2,24 @@
 
 .gallery{
   margin:0 auto;
-  width:50%;
+  
 }
 
 .gallery img:hover{
   outline: 2px solid black;
-}
 
+}
+.gallery img{
+    float:left;
+}
 
 .mfp-close:after{
   content:"Close" !important;
 }
 
 .mfp-bg{
-  background:#a10001 !important;
-  opacity:.95 !important;
+  background:#39964d !important;
+  opacity:.45 !important;
  transition: opacity  1s;
 }
 img .mfp-img{
