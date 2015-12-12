@@ -73,7 +73,7 @@ body{
 border-top:1px solid #555;
 position: relative;
 	height:7%;
-	background: #39964d;
+		background: #F4F6F8;
 clear: both;
 
 }
@@ -158,7 +158,7 @@ background:tomato;
 color:white;
 }
 .nav li a {
-	border:1px solid black;
+
   background: #eee;
   color:#666;
   display: inline-block;
@@ -189,8 +189,8 @@ animation: nav .2s linear both;
 .nav .current> a{
 	  background: #666;
 	  color:#fff;
-	  border-bottom: .5em red double;
-	  border-top:4px solid tomato;
+	  border-bottom: .5em #BE5A38 double;
+	  border-top:4px solid #BE5A38;;
 }
 	
 /* Keyframes */
