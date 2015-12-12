@@ -73,7 +73,9 @@ body{
 border-top:1px solid #555;
 position: relative;
 	height:7%;
-		background: #F4F6F8;
+background-color: #0d5d56;
+background-image: url("../img/dark-mosaic.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 clear: both;
 
 }
