@@ -69,7 +69,6 @@ iframe{margin-top:15px;}
 /* http://lea.verou.me/css3patterns/#weave */
 body{
 	display:inline;
-background: radial-gradient(ellipse at center, rgba(167,207,223,1) 0%,rgba(35,83,138,1) 100%); /* W3C */
 }
 
 /* http://www.cssstickyfooter.com/using-sticky-footer-code.html */
