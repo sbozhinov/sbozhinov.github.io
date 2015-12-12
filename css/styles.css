@@ -196,7 +196,10 @@ animation: nav .2s linear both;
 	  border-top:4px solid #BE5A38;;
 }
 .gallery {margin-top:20px;}
-.gallery img{padding:5px;}
+.gallery img{padding:5px; 
+width: 300px;
+    height:200px;
+}
 .gallery img:hover{
    outline: 1px solid black;
   
