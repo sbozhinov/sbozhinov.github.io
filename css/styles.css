@@ -64,7 +64,8 @@ border-top:15px solid #555;
 
 
 body{
- background-image: url("../img/new_year_background.png");
+background-color: #edfaf1;
+background-image: url("../img/brushed-alum.png");
 	display:inline;
 }
 
@@ -75,7 +76,7 @@ position: relative;
 	height:7%;
 background-color: #0d5d56;
 background-image: url("../img/dark-mosaic.png");
-/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+
 clear: both;
 
 }
