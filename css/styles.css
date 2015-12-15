@@ -112,8 +112,9 @@ input[type="submit"]:hover{
 .header{
 	position: relative;
 	height: 1.78rem;
-
-	margin-top:1%;
+background-color: #0d5d56;
+background-image: url("../img/dark-mosaic.png");
+	height:70px;
 	clear:both;
 	display:flex;
 }
