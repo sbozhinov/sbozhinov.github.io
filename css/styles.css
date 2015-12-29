@@ -74,8 +74,8 @@ background-image: url("../img/brushed-alum.png");
 border-top:1px solid #555;
 position: relative;
 	height:7%;
-background-color: #0d5d56;
-background-image: url("../img/dark-mosaic.png");
+background-color:darkseagreen;
+
 
 clear: both;
 
@@ -112,11 +112,12 @@ input[type="submit"]:hover{
 .header{
 	position: relative;
 	height: 1.78rem;
-background-color: #0d5d56;
-background-image: url("../img/dark-mosaic.png");
+background-color:darkseagreen;
+
 	height:70px;
 	clear:both;
 	display:flex;
+
 }
 
 .nav{
@@ -138,17 +139,7 @@ p img{
 	margin-left:10%;
 	border-radius:5px;
 }
-.nav:first-child::before{
-	content:"SB";
-	font-size:55px;
-	font-family: 'Jura', sans-serif;
-	position:absolute;
-	font-weight:bold;
-	color:#BE5A38;
-	 text-shadow: 2px 2px 4px #000000;
-	 transform:rotate(-20deg);
 
-}
 .nav li:first-child{
 	margin-left:40px;
 }
