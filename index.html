@@ -25,16 +25,6 @@
 			<li><a href= "./contact.html">Contact </a></li>
 </div>
 </div>
-        <script>$(".container p, h2")
-  // Blast the text apart by word.
-  .blast({ delimiter: "word" })
-  // Fade the words into view using Velocity.js.
-  .velocity("transition.fadeIn", { 
-    display: null,
-    duration: 1250,
-    stagger: 40,
-    delay: 400
-  });</script>
 <div class = "container">
 
 
@@ -56,7 +46,16 @@
 
 	</div>
 
-
+<script>$(".container p, h2")
+  // Blast the text apart by word.
+  .blast({ delimiter: "word" })
+  // Fade the words into view using Velocity.js.
+  .velocity("transition.fadeIn", { 
+    display: null,
+    duration: 1250,
+    stagger: 40,
+    delay: 400
+  });</script>
 </body>
 
 </html>
