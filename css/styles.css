@@ -74,7 +74,7 @@ background-image: url("../img/brushed-alum.png");
 border-top:1px solid #888;
 position: relative;
 	height:7%;
-background-color:#4f4f4f;
+background: rgba(0,0,0,0.8);
 
 
 clear: both;
@@ -112,7 +112,7 @@ input[type="submit"]:hover{
 .header{
 	position: relative;
 	height: 1.78rem;
-background-color:#4f4f4f;
+background: rgba(0,0,0,0.8);
 
 	height:70px;
 	clear:both;
