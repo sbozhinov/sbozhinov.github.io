@@ -27,10 +27,10 @@ color: #0C8346;
 padding:5px;
 display:block;
 }
-
-.navbar>navbar-nav{
-    margin:auto;
+.container-fluid>ul{
+    text-align:center;
 }
+  
 body{
 background-color: #edfaf1;
 background-image: url("../img/brushed-alum.png");
