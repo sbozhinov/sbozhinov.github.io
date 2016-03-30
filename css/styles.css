@@ -38,6 +38,19 @@ background-image: url("../img/brushed-alum.png");
 
 /* http://www.cssstickyfooter.com/using-sticky-footer-code.html */
 
+.wrap{
+    padding-top:100px;
+    background:white;
+    min-height: 100%;
+margin-bottom:-69px;
+margin-top:-72px;
+border-right: 1px solid green;
+border-left:1px solid green;
+}
+
+.navbar a{
+    font-size: 1.5em;
+}
 .footer{
 border-top:1px solid #888;
 position: relative;
@@ -70,12 +83,6 @@ input[type="submit"]:hover{
 	margin-top:50px;
 }
 
-.wrap{
-    padding-top:100px;
-    background:white;
-    min-height: 100%;
-margin-bottom:-69px;
-margin-top:-72px;}
 
 p img{
 	display:block;
