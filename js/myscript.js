@@ -6,8 +6,4 @@ $(document).ready(function() {
 }); 
     
     
-    var limit = 3;
-var randNum = Math.floor(Math.random() * limit);
-
-console.log(randNum);
 });
