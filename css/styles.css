@@ -27,10 +27,9 @@ color: #0C8346;
 padding:5px;
 display:block;
 }
-.container-fluid>ul{
-    text-align:center;
-}
-  
+
+
+
 body{
 background-color: #edfaf1;
 background-image: url("../img/brushed-alum.png");
@@ -42,7 +41,7 @@ background-image: url("../img/brushed-alum.png");
 .footer{
 border-top:1px solid #888;
 position: relative;
-	height:7%;
+	height:69px;
 background: rgba(0,0,0,0.8);
 
 
@@ -55,13 +54,6 @@ clear: both;
 }
 
 
-
-
-
-input, textarea{
-  display: block;
-  margin:.5em 0;
-}
 
 
 input[type="submit"]{
@@ -78,10 +70,12 @@ input[type="submit"]:hover{
 	margin-top:50px;
 }
 
-
-.container p{padding:5px;
-
-}
+.wrap{
+    padding-top:100px;
+    background:white;
+    min-height: 100%;
+margin-bottom:-69px;
+margin-top:-72px;}
 
 p img{
 	display:block;
