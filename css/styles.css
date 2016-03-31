@@ -1,11 +1,10 @@
 h2, h3, p {
 	margin: 0;
 }
-*{	box-sizing: border-box;}
 
+.wrap h1 {color: #4CAF50;}
 html, body {height:100%; margin:0; padding:0;
-           
-             
+                       
 }
 
 body{
@@ -35,12 +34,13 @@ display:inline;
 
 .wrap{
     padding-top:90px;
- background:#8981e4;
     min-height: 100%;
 margin-bottom:-51px;
 margin-top:-120px;
 border-right: 1px solid green;
 border-left:1px solid green;
+padding-bottom: 30px;
+padding-left:3%!important;
 }
 
 
@@ -72,7 +72,7 @@ margin-top:50px;
 
 
 .gallery {margin-top:20px;
-         margin-left:7%;
+         
 }
 .gallery a img{
 padding:5px; 
@@ -88,7 +88,18 @@ box-shadow: 5px 5px 10px rgba(64,65,72,.2);
 }
 
 
- input{
-    float:left;
-    display:block;
+
+form{height:500px;
+width:320px;
+
 }
+
+form label{padding-right:15px;}
+form input{margin-left:24px;}
+form textarea{width: 100%}
+.btn-primary{margin-top:20px; float:right}
+
+.index{
+    background:#f8f8f8;
+}
+
