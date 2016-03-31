@@ -3,13 +3,13 @@ h2, h3, p {
 }
 
 .wrap h1 {color: #4CAF50;}
+
 html, body {height:100%; margin:0; padding:0;
-                       
+       background: url("../img/d83ad76bc7afa9af24983e6d6c922802.jpg");
 }
 
 body{
-
-
+    
 display:inline;
 }
 
@@ -18,10 +18,7 @@ display:inline;
     height: 78px;
     display:inline;
 }
-.nav{}
-.navbar{
 
-}
 .navbar-brand {margin-top:-20px;
 }
 .navbar-inverse .container{
@@ -33,6 +30,7 @@ display:inline;
 
 
 .wrap{
+background:white;
     padding-top:90px;
     min-height: 100%;
 margin-bottom:-51px;
@@ -67,6 +65,7 @@ width:20%;
 height:20%;
 float:right;
 margin-top:50px;
+margin-right: 10%;
 }
 
 
@@ -99,7 +98,4 @@ form input{margin-left:24px;}
 form textarea{width: 100%}
 .btn-primary{margin-top:20px; float:right}
 
-.index{
-    background:#f8f8f8;
-}
 
