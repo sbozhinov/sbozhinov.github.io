@@ -66,6 +66,8 @@ height:20%;
 float:right;
 margin-top:50px;
 margin-right: 10%;
+min-height: 100px;
+min-width: 100px;
 }
 
 
