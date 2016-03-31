@@ -1,39 +1,46 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Stan Bozhinov's Home Page</title>
-	<link href='http://fonts.googleapis.com/css?family=Jura:400,500,600' rel='stylesheet' type='text/css'>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-           <script src="js/jquery.blast.min.js"></script>
-               <script src="js/velocity.min.js"></script>
-                   <script src="js/velocity.ui.min.js"></script>
+   <link rel="icon" href="img/logo.png" sizes="32x32">
+  <title>Stan Bozhinov</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="css/styles.css">
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"  >
-
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
-
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" ></script>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="js/myscript.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/lightgallery.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.2.6/js/lightgallery.min.js" ></script>
 </head>
-
 <body>
-	<div class = "header">
-		<div class = "nav">
-		Stan Bozhinov
-		<ul> 
-<li class="current"><a href= "./index.html">Home</a></li>
-			<li><a href= "./bio.html">Resume </a></li>
-			<li><a href= "./portfolio.html">Portfolio </a></li>
-			<li><a href= "./contact.html">Contact </a></li>
-</div>
-</div>
-<div class="container container-fluid">
 
 
+<nav class="navbar navbar-inverse" role = "navigation">
+    
+   <div class="container">
+    <div class="navbar-header text-center">
+       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="./"><img src="img/logo.png"></a>
+    </div>
+       <div class="collapse navbar-collapse" id="myNavbar">
+    <ul class="nav navbar-nav text-center">
+      <li  class="active"><a href= "./index.html">  <span class="glyphicon glyphicon-home"></span> Home</a></li>
+      <li class="divider-vertical"></li>
+			<li><a href= "./bio.html">     <span class="glyphicon glyphicon-list-alt"></span> Resume </a></li>
+                        <li class="divider-vertical"></li>
+                        <li><a href= "./portfolio.html">     <span class="glyphicon glyphicon-folder-open"></span>&nbsp; Portfolio </a></li>
+                        <li class="divider-vertical"></li>
+			<li><a href= "./contact.html"><span class="glyphicon glyphicon-envelope"></span> Contact </a></li>
+    </ul>
+       </div>
+   </div>
+</nav>
+<div class="container container-fluid wrap">    
 
 <h1>Welcome to my Web Page</h1>
 <img src="img/stanphoto.jpg" class="photoframe">
@@ -46,11 +53,11 @@
 <p> Look around, I've posted some stuff, and contact me if you like </p> 
 <p>My git page is at <a href= "https://github.com/sbozhinov?tab=repositories">https://github.com/sbozhinov</a> </p>
 </div>
-<div class = "footer">
 
-<p>Website by Stan Bozhinov © 2015</p>
+<footer class="footer ">
+    <p class="container text-muted"> © Stan Bozhinov 2016 </p>
 
-	</div>
+</footer>
 
 <script>$(".container p, h2")
   // Blast the text apart by word.
@@ -63,5 +70,4 @@
     delay: 0
   });</script>
 </body>
-
 </html>

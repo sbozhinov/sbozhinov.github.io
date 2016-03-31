@@ -4,37 +4,43 @@ h2, h3, p {
 *{	box-sizing: border-box;}
 
 html, body {height:100%; margin:0; padding:0;
+           
+             
 }
 
 body{
-background-color: #edfaf1;
-background-image: url("../img/brushed-alum.png");
+
+
 display:inline;
 }
 
 /* header */
+.navbar ul{
+    height: 78px;
+    display:inline;
+}
+.nav{}
 .navbar{
-    height: 100px;
+
 }
 .navbar-brand {margin-top:-20px;
 }
 .navbar-inverse .container{
     margin-top:20px;
 }
-.navbar a{
+.navbar li a {
     font-size: 1.5em;
 }
 
 
 .wrap{
     padding-top:90px;
-    background:white;
+ background:#8981e4;
     min-height: 100%;
 margin-bottom:-51px;
 margin-top:-120px;
 border-right: 1px solid green;
 border-left:1px solid green;
-
 }
 
 
@@ -56,7 +62,7 @@ input[type="submit"]:hover{
 }
 
 .photoframe{
-border:1px solid black;
+border:8px solid #777;
 width:20%;
 height:20%;
 float:right;
@@ -64,21 +70,25 @@ margin-top:50px;
 }
 
 
-p img{
-	display:block;
-	margin: 5px;
-	border: 3px solid #333;
-	margin-left:10%;
-	border-radius:5px;
-}
 
-.gallery {margin-top:20px;}
-.gallery img{padding:5px; 
+.gallery {margin-top:20px;
+         margin-left:7%;
+}
+.gallery a img{
+padding:5px; 
 width: 300px;
 height:200px;
+float:left;
+border:8px solid #bbb;
+margin: 5px;
+box-shadow: 5px 5px 10px rgba(64,65,72,.2);
 }
 .gallery img:hover{
-   outline: 1px solid black;
+   border:8px solid #333;
 }
 
 
+ input{
+    float:left;
+    display:block;
+}

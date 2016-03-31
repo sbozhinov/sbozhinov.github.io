@@ -1,56 +1,74 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Stan Bozhinov : Portfolio</title>
-	<link href='http://fonts.googleapis.com/css?family=Jura:400,500,600' rel='stylesheet' type='text/css'>
+   <link rel="icon" href="img/logo.png" sizes="32x32">
+  <title>Stan Bozhinov</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="css/styles.css">
-      <link rel="stylesheet" type="text/css" href="css/lightgallery.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.2.6/js/lightgallery.min.js" ></script>
-
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="js/myscript.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/lightgallery.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.2.6/js/lightgallery.min.js" ></script>
 </head>
 <body>
 
-</head>
-<body>
-	<div class = "header">
-		<div class = "nav">
-		<ul> 
-			<li><a href= "./index.html">Home</a></li>
-			<li><a href= "./bio.html">Resume </a></li>
-			<li class="current"><a href= "./portfolio.html">Portfolio </a></li>
-			<li><a href= "./contact.html">Contact </a></li>
-</div>
-</div>
-<div class = "container">
+
+<nav class="navbar navbar-inverse" role = "navigation">
     
-<h1>Portfolio</h1>
+   <div class="container">
+    <div class="navbar-header text-center">
+       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="./"><img src="img/logo.png"></a>
+    </div>
+       <div class="collapse navbar-collapse" id="myNavbar">
+    <ul class="nav navbar-nav text-center">
+      <li ><a href= "./index.html">  <span class="glyphicon glyphicon-home"></span> Home</a></li>
+      <li class="divider-vertical"></li>
+			<li><a href= "./bio.html">     <span class="glyphicon glyphicon-list-alt"></span> Resume </a></li>
+                        <li class="divider-vertical"></li>
+                        <li class="active"><a href= "./portfolio.html">     <span class="glyphicon glyphicon-folder-open"></span>&nbsp; Portfolio </a></li>
+                        <li class="divider-vertical"></li>
+			<li><a href= "./contact.html"><span class="glyphicon glyphicon-envelope"></span> Contact </a></li>
+    </ul>
+       </div>
+   </div>
+</nav>
+		
+<div class="container container-fluid text-center wrap">    
+
+
+    <div class="col-sm-12 "> 
+      <h1>Portfolio</h1>
 
     <h2>Here are some things I've been working on</h2>
-<!-- borrowing code from class -->
+
 <div class="gallery">
-  
-  <a href="./img/flatContainer.jpg" data-sub-html="<figcaption>Flat product package layout for VCD 1 class</figcaption>"><img src="./img/flatContainerSmall.jpg" alt="" /></a>
     
+
    <a href="./img/Admin-Evaluations.png" data-sub-html="<figcaption>My senior group project was working on course evaluator website for CS department.</figcaption>"><img src="./img/Admin-Evaluations.png" alt="" /></a>
-    
-   <a href="./img/bozhinovStan_Zine.png"data-sub-html="<figcaption>My zine design for DESN 216.</figcaption>"><img src="./img/bozhinovStan_Zine.png" alt="" /></a>
+  <a href="./img/flatContainer.jpg" data-sub-html="<figcaption>Flat product package layout for VCD 1 class</figcaption>"><img src="./img/flatContainerSmall.jpg" alt="" /></a>
+   
+   <a href="./img/bozhinovStan_Zine.png" data-sub-html="<figcaption>My zine design for DESN 216.</figcaption>"><img src="./img/bozhinovStan_Zine.png" alt="" /></a>
        <a href="./img/HoffTree.png" data-sub-html="<figcaption>Constructed a Huffman Tree.</figcaption>"><img src="./img/HoffTree.png" alt="" /></a>
-   <a href="./img/cs3.jpg"data-sub-html="<figcaption>Discovering exploits in code.</figcaption>"><img src="./img/cs3.jpg" alt="" /></a>
+   <a href="./img/cs3.jpg" data-sub-html="<figcaption>Discovering exploits in code.</figcaption>"><img src="./img/cs3.jpg" alt="" /></a>
+      <a href="./img/cdacasino.png" data-sub-html="<figcaption>Cda casino project in 2011.</figcaption>"><img src="./img/cdacasino.png" alt="" /></a>
 </div>
+    </div>
+
+  </div>
 
 
+<footer class="footer ">
+    <p class="container text-muted"> © Stan Bozhinov 2016 </p>
 
-
-</div>
-<div class = "footer">
-    <script src="js/myscript.js"></script>
-<p>Website by Stan Bozhinov © 2015</p>
-
-	</div>
-
+</footer>
 
 </body>
-
 </html>
