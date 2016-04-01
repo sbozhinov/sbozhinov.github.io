@@ -53,11 +53,9 @@ clear: both;
 
 
 input[type="submit"]{
-  border-radius:20px;
+  background:black;
 }
-input[type="submit"]:hover{
-	color:green;
-}
+
 
 .photoframe{
 border:8px solid #777;
@@ -69,7 +67,6 @@ margin-right: 10%;
 min-height: 100px;
 min-width: 100px;
 }
-
 
 
 .gallery {margin-top:20px;
@@ -95,9 +92,11 @@ width:320px;
 
 }
 
-form label{padding-right:15px;}
-form input{margin-left:24px;}
-form textarea{width: 100%}
+form label{padding:3px;}
+form input{float:right;}
+form textarea{
+    margin-top:10px;
+    width: 100%}
 .btn-primary{margin-top:20px; float:right}
 
 
