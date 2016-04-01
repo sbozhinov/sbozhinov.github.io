@@ -2,7 +2,7 @@ h2, h3, p {
 	margin: 0;
 }
 
-.wrap h1 {color: #9A6A47;}
+.wrap h1 {color: #6082B5;}
 
 html, body {height:100%; margin:0; padding:0;
        background: url("../img/d83ad76bc7afa9af24983e6d6c922802.jpg");
@@ -26,7 +26,10 @@ display:inline;
 .navbar-inverse .container{
     padding-top:10px;
     border-bottom:5px solid white;
-          
+                 background: #333;
+}
+nav{
+            background: #333!important;
 }
 .navbar li a {
     font-size:1.6em;
@@ -51,7 +54,7 @@ padding-left:3%!important;
 border-top:1px solid #888;
 position: relative;
 height:51px;
-background:#111;
+background:#222;
 clear: both;
 }
 
@@ -59,7 +62,6 @@ clear: both;
 input[type="submit"]{
   background:black;
 }
-
 
 .photoframe{
 border:8px solid #bbb;
