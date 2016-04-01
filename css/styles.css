@@ -32,9 +32,17 @@ nav{
             background: #333!important;
 }
 .navbar li a {
-    font-size:1.6em;
-}
+    font-size:1.4em;
 
+}
+.navbar-inverse .navbar-nav li a{
+    transition: background-color,color ease-out .5s;
+
+}
+.navbar-inverse .navbar-nav li a:hover{
+    background:black;
+     transition: background-color,color ease-in .2s;
+}
 
 .wrap{
 background:#F2F5E1;
@@ -89,11 +97,12 @@ margin: 5px;
 box-shadow: 5px 5px 10px rgba(64,65,72,.2);
 }
 .gallery img:hover{
-   border:8px solid #333;
+   border:8px solid #555;
+        transition: border-color ease-in .2s;
 }
-
-
-
+.gallery img{
+     transition: border-color ease-out .3s;
+    }
 form{height:500px;
 width:320px;
 
