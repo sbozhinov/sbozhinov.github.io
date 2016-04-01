@@ -25,16 +25,24 @@ display:inline;
 
 .navbar-inverse .container{
     padding-top:10px;
-    border-bottom:5px solid white;
+    
                  background: #333;
 }
 nav{
-            background: #333!important;
+          
+            
+}
+.navbar-inverse{
+    border-bottom:5px dashed #777;
+    border-width:1px;
+      background: #333;
 }
 .navbar li a {
     font-size:1.4em;
-
+text-shadow:3px 3px 3px #000000;
 }
+
+.navbar-inverse .navbar-nav> .active > a {background:none;}
 .navbar-inverse .navbar-nav li a{
     transition: background-color,color ease-out .5s;
 
@@ -59,7 +67,8 @@ padding-left:3%!important;
 
 /* http://www.cssstickyfooter.com/using-sticky-footer-code.html */
 .footer{
-border-top:1px solid #888;
+border-top:1px dashed #666;
+  border-width:1px;
 position: relative;
 height:51px;
 background:#222;
@@ -81,6 +90,7 @@ margin-right: 10%;
 min-height: 100px;
 min-width: 100px;
     box-shadow: 5px 5px 10px rgba(64,65,72,.2);
+    border-radius:15px;
 }
 
 
