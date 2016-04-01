@@ -6,7 +6,7 @@ h2, h3, p {
 
 html, body {height:100%; margin:0; padding:0;
             background:#bbb;
-       background: url("../img/bg-black-noise2.jpg");
+       background: url("../img/escheresque_ste.png");
 }
 
 body{
@@ -34,7 +34,7 @@ nav{
             
 }
 .navbar-inverse{
-    border-bottom:1px dashed #777;
+    border-bottom:1px dashed #666;
       background: #333;
 }
 .navbar li a {
@@ -68,7 +68,7 @@ padding-left:3%!important;
 
 /* http://www.cssstickyfooter.com/using-sticky-footer-code.html */
 .footer{
-border-top:1px dashed #666;
+border-top:1px dashed #555;
   border-width:1px;
 position: relative;
 height:31px;
