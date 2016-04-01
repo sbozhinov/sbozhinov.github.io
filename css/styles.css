@@ -20,6 +20,7 @@ display:inline;
 }
 
 .navbar-brand {margin-top:-20px;
+              box-shadow: 5px 5px 10px rgba(64,65,72,.2);
 }
 .navbar-inverse .container{
     margin-top:20px;
@@ -58,7 +59,7 @@ input[type="submit"]{
 
 
 .photoframe{
-border:8px solid #777;
+border:8px solid #bbb;
 width:20%;
 height:20%;
 float:right;
@@ -66,6 +67,7 @@ margin-top:50px;
 margin-right: 10%;
 min-height: 100px;
 min-width: 100px;
+    box-shadow: 5px 5px 10px rgba(64,65,72,.2);
 }
 
 
