@@ -2,7 +2,7 @@ h2, h3, p {
 	margin: 0;
 }
 
-.wrap h1 {color: #4CAF50;}
+.wrap h1 {color: #9A6A47;}
 
 html, body {height:100%; margin:0; padding:0;
        background: url("../img/d83ad76bc7afa9af24983e6d6c922802.jpg");
@@ -15,29 +15,29 @@ display:inline;
 
 /* header */
 .navbar ul{
-    height: 73px;
+    height: 70px;
     display:inline;
+}
+
+.navbar-brand {margin-top:-25px;
 
 }
 
-.navbar-brand {margin-top:-20px;
-              box-shadow: 5px 5px 10px rgba(64,65,72,.2);
-
-}
 .navbar-inverse .container{
-    margin-top:20px;
+    padding-top:10px;
     border-bottom:5px solid white;
+          
 }
 .navbar li a {
-    font-size: 1.5em;
+    font-size:1.6em;
 }
 
 
 .wrap{
-background:white;
+background:#F2F5E1;
     padding-top:90px;
     min-height: 100%;
-margin-bottom:-51px;
+margin-bottom:-38px;
 margin-top:-120px;
 border-right: 1px solid green;
 border-left:1px solid green;
