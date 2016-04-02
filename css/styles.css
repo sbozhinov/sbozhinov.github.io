@@ -2,7 +2,9 @@ h2, h3, p {
 	margin: 0;
 }
 
-.wrap h1 {color: #6082B5;}
+.wrap h1 {color: #6082B5;
+font-family: 'Droid Sans', sans-serif;
+}
 
 html, body {height:100%; margin:0; padding:0;
             background:#bbb;
@@ -39,7 +41,7 @@ nav{
 }
 .navbar li a {
     font-size:1.4em;
-text-shadow:3px 3px 3px #000000;
+text-shadow:2px 2px 2px #000000;
 }
 
 .navbar-inverse .navbar-nav> .active > a {background:none; color:#ddd;}
@@ -59,13 +61,25 @@ background:#fff;
     min-height: 100%;
     margin-bottom:-6px;
 margin-top:-120px;
-border-right:3px solid #bbb;
-border-left:3px solid #bbb;
+border-right:2px solid #bbb;
+border-left:2px solid #bbb;
 padding-bottom: 30px;
-padding-left:3%!important;
+padding-left:3%!important;   
 }
+.wrap ul{
+    padding:0;
+        list-style: none;
+        width:fit-content;
+}
+.wrap li{
 
-
+border: 1px solid #aaa;
+padding:5px;
+padding-right:15px;
+margin-top:5px;
+border-radius:2px;
+ background:#DDE8F5;
+}
 /* http://www.cssstickyfooter.com/using-sticky-footer-code.html */
 .footer{
 border-top:1px dashed #555;
