@@ -151,6 +151,7 @@ form textarea{
 .index h1{
           background: url("../img/3711_computerscience-banner-final.jpg");
           padding: 100px;
+          border-bottom:2px solid #ccc;
 }
 
 .index p, .index h2{
