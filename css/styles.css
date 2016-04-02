@@ -28,9 +28,9 @@ display:inline;
 
 .navbar-inverse .container{
     padding-top:10px;
-    
-                 background: #333;
+    background: #333;
 }
+
 nav{
           
             
@@ -38,6 +38,7 @@ nav{
 .navbar-inverse{
     border-bottom:1px dashed #666;
       background: #333;
+
 }
 .navbar li a {
     font-size:1.4em;
@@ -61,10 +62,11 @@ background:#fff;
     min-height: 100%;
     margin-bottom:-6px;
 margin-top:-120px;
-border-right:2px solid #bbb;
-border-left:2px solid #bbb;
+border-right:1px solid #bbb;
+border-left:1px solid #bbb;
 padding-bottom: 30px;
-padding-left:3%!important;   
+padding-left:3%;
+padding-right:3%;
 }
 .wrap ul{
     padding:0;
@@ -77,7 +79,7 @@ width: -moz-max-content;
 
 border: 1px solid #aaa;
 padding:5px;
-padding-right:15px;
+padding-right:8px;
 margin-top:5px;
 border-radius:2px;
  background:#DDE8F5;
@@ -126,7 +128,7 @@ margin: 5px;
 box-shadow: 5px 5px 10px rgba(64,65,72,.2);
 }
 .gallery img:hover{
-   border:8px solid #555;
+   border:8px solid #6082B5;;
         transition: border-color ease-in .2s;
 }
 .gallery img{
@@ -137,6 +139,7 @@ form{
  height:500px;
  width:320px;
 }
+.container.index{padding:0;}
 
 form label{padding:3px;}
 form input{float:right;}
@@ -145,4 +148,16 @@ form textarea{
     width: 100%}
 .btn-primary{margin-top:20px; float:right}
 
+.index h1{
+          background: url("../img/3711_computerscience-banner-final.jpg");
+          padding: 100px;
+}
 
+.index p, .index h2{
+    padding-left:3%;
+}
+.index p{
+    background:#ddd;
+    padding-top:5px;
+    padding-bottom:5px;
+}
