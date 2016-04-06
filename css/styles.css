@@ -131,7 +131,7 @@ margin: 5px;
 box-shadow: 5px 5px 10px rgba(64,65,72,.2);
 }
 .gallery img:hover{
-   border:8px solid #6082B5;;
+   border:8px solid #6082B5;
         transition: border-color ease-in .2s;
 }
 .gallery img{
@@ -164,6 +164,7 @@ form textarea{
     background:#FFD57A;
     padding-top:5px;
     padding-bottom:5px;
+
 }
 
 .bio p{
