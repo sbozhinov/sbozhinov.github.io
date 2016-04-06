@@ -1,5 +1,6 @@
 h2, h3, p {
 	margin: 0;
+        font-size: 1.1em;
 }
 
 .wrap h1 {color: #6082B5;
@@ -160,7 +161,11 @@ form textarea{
     padding-left:3%;
 }
 .index p{
-    background:#FFF1BF;
+    background:#FFD57A;
     padding-top:5px;
     padding-bottom:5px;
+}
+
+.bio p{
+    padding-top:5px;
 }
