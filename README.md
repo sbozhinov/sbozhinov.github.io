@@ -1,4 +1,2 @@
 # sbozhinov.github.io
-# http://www.transparenttextures.com/ textures
-# https://github.com/sachinchoolur/lightGallery gallery
-# https://github.com/julianshapiro/velocity - text animation
+This is my homepage project, using html and some jquery in order to be able to publish on github. Also includes some Bootstrap elements.
