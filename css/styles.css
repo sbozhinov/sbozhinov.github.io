@@ -162,7 +162,7 @@ form textarea{
     padding-left:3%;
 }
 .index p{
-    background:#FFD57A;
+    background:#FBFFD7;
     padding-top:5px;
     padding-bottom:5px;
 
@@ -174,4 +174,7 @@ form textarea{
 
 .wrap .bio btn-primary a {
     color:white!important;
+}
+.bio h4{
+    padding-top:5px;
 }
