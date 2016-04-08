@@ -13,7 +13,7 @@ html, body {height:100%; margin:0; padding:0;
 }
 
 body{
-    
+
 display:inline;
 }
 
@@ -60,6 +60,7 @@ text-shadow:2px 2px 2px #000000;
 
 .wrap{
 background:#fff;
+    color:#474645;
 padding-top:100px;
 min-height: 100%;
 margin-bottom:-6px;
@@ -169,4 +170,8 @@ form textarea{
 
 .bio p{
     padding-top:5px;
+}
+
+.wrap .bio btn-primary a {
+    color:white!important;
 }
