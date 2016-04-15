@@ -29,7 +29,7 @@ display:inline;
 
 .navbar-inverse .container{
     padding-top:10px;
-    background: #333;
+
 }
 
 nav{
@@ -37,24 +37,24 @@ nav{
             
 }
 .navbar-inverse{
-    border-bottom:1px dashed #666;
-      background: #333;
+    border-bottom:1px solid #aaa;
+      background: white;
 }
 
 .navbar li a {
     font-size:1.2em;
-text-shadow:2px 2px 2px #000000;
+    color:#aaa;
 }
 
-.navbar-inverse .navbar-nav> .active > a {background:none; color:#ddd;}
-.navbar-inverse .navbar-nav> .active > a:hover {background:none; color:#ddd;}
+.navbar-inverse .navbar-nav> .active > a {background:none; color:#555;}
+.navbar-inverse .navbar-nav> .active > a:hover {background:none; color:#777;}
 .navbar-inverse .navbar-nav li a{
     transition: background-color,color ease-out .5s;
 
 }
 
 .navbar-inverse .navbar-nav li a:hover{
-    color:#ddd;
+    color:#666;
      transition: background-color,color ease-in .2s;
 }
 
@@ -106,7 +106,7 @@ input[type="submit"]{
 }
 
 .photoframe{
-border:8px solid #bbb;
+border:6px solid #bbb;
 width:20%;
 height:20%;
 float:right;
@@ -115,7 +115,7 @@ margin-right: 10%;
 min-height: 100px;
 min-width: 100px;
 box-shadow: 5px 5px 10px rgba(64,65,72,.2);
-border-radius:15px;
+border-radius:2px;
 }
 
 
@@ -130,10 +130,12 @@ float:left;
 border:8px solid #bbb;
 margin: 5px;
 box-shadow: 5px 5px 10px rgba(64,65,72,.2);
+opacity: 0.75;
 }
 .gallery img:hover{
    border:8px solid #6082B5;
         transition: border-color ease-in .2s;
+       opacity: 1; 
 }
 .gallery img{
      transition: border-color ease-out .3s;
